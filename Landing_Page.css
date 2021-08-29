@@ -1,0 +1,1340 @@
+:root {
+	--web-view-ids: Landing_Page,Login_page,Login_page__1;
+	--web-view-name: Landing Page;
+	--web-view-id: Landing_Page;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: false;
+	--web-scale-on-resize: false;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: false;
+	--web-center-vertically: false;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: false;
+	--web-application: true;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#Landing_Page,
+#Login_page,
+#Login_page__1 {
+	display: none;
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: Landing Page;
+		--web-view-id: Landing_Page;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Landing_Page {
+		position: absolute;
+		display: block;
+		width: 1519px;
+		height: 768px;
+		background: linear-gradient(315deg, rgba(208,233,42,1) 0%, rgba(253,45,13,1) 28.43%, rgba(43,27,68,1) 100%);
+		overflow: hidden;
+		--web-view-name: Landing Page;
+		--web-view-id: Landing_Page;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Ellipse_5_k {
+		fill: url(#Ellipse_5_k);
+	}
+	.Ellipse_5_k {
+		filter: drop-shadow(-47px 3px 24px rgba(0, 0, 0, 0.341));
+		position: absolute;
+		overflow: visible;
+		width: 1129px;
+		height: 1050px;
+		left: 557px;
+		top: -122px;
+	}
+	#Group_212 {
+		position: absolute;
+		width: 499px;
+		height: 450px;
+		left: 72px;
+		top: 92px;
+		overflow: visible;
+	}
+	#Smart_Rural_Payement_Gateway_t {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 482px;
+		height: 343px;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 58px;
+		color: rgba(255,255,255,1);
+	}
+	#Component_5__2 {
+		position: absolute;
+		width: 162px;
+		height: 61px;
+		left: 337px;
+		top: 389px;
+		overflow: visible;
+		padding: 18px 43px 18px 44px;
+	}
+	#Rectangle_1832 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1832 {
+		position: absolute;
+		overflow: visible;
+		width: 162px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#Explore {
+		left: 44px;
+		top: 18px;
+		position: absolute;
+		overflow: visible;
+		width: 88px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Component_5__1 {
+		position: absolute;
+		width: 162px;
+		height: 60px;
+		left: 0px;
+		top: 390px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Login_page;
+		cursor: pointer;
+		padding: 18px 43px 18px 44px;
+	}
+	#Rectangle_1832_r {
+		fill: rgba(137,0,255,1);
+	}
+	.Rectangle_1832_r {
+		position: absolute;
+		overflow: visible;
+		width: 162px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sign_up {
+		left: 44px;
+		top: 18px;
+		position: absolute;
+		overflow: visible;
+		width: 88px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Component_5__5 {
+		position: absolute;
+		width: 152px;
+		height: 60px;
+		left: 175px;
+		top: 390px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Login_page;
+		cursor: pointer;
+		padding: 18px 43px 18px 44px;
+	}
+	#Path_569 {
+		fill: rgba(13,130,198,1);
+	}
+	.Path_569 {
+		overflow: visible;
+		position: absolute;
+		width: 152px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Login {
+		left: 44px;
+		top: 18px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Component_5__6 {
+		position: absolute;
+		width: 90px;
+		height: 36px;
+		left: 1204px;
+		top: 86px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Login_page;
+		cursor: pointer;
+		padding: 5px 12px 7px 13px;
+	}
+	#Path_569_x {
+		fill: rgba(13,130,198,1);
+	}
+	.Path_569_x {
+		overflow: visible;
+		position: absolute;
+		width: 90px;
+		height: 36.427px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Login_y {
+		left: 13px;
+		top: 5px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Ellipse_6 {
+		fill: rgba(198,223,37,1);
+	}
+	.Ellipse_6 {
+		filter: drop-shadow(15px -3px 10px rgba(0, 0, 0, 0.439));
+		position: absolute;
+		overflow: visible;
+		width: 224px;
+		height: 224px;
+		left: 557px;
+		top: 148px;
+	}
+	#Ellipse_8 {
+		fill: rgba(255,126,14,1);
+	}
+	.Ellipse_8 {
+		filter: drop-shadow(0px -14px 7px rgba(0, 0, 0, 0.302));
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 144.5px;
+		left: 488px;
+		top: 708px;
+	}
+	#Ellipse_7 {
+		fill: rgba(30,56,236,1);
+	}
+	.Ellipse_7 {
+		filter: drop-shadow(11px -18px 50px rgba(0, 0, 0, 0.82));
+		position: absolute;
+		overflow: visible;
+		width: 426px;
+		height: 426px;
+		left: -66px;
+		top: 652px;
+	}
+	#Ellipse_9_ {
+		fill: url(#Ellipse_9_);
+	}
+	.Ellipse_9_ {
+		filter: drop-shadow(11px -6px 21px rgba(0, 0, 0, 0.549));
+		position: absolute;
+		overflow: visible;
+		width: 339px;
+		height: 339px;
+		left: 1018px;
+		top: 164px;
+	}
+	#Component_5__3 {
+		position: absolute;
+		width: 120px;
+		height: 32px;
+		left: 1067px;
+		top: 87px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Login_page;
+		cursor: pointer;
+		padding: 4px 16px 4px 17px;
+	}
+	#Rectangle_1832_ {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_1832_ {
+		position: absolute;
+		overflow: visible;
+		width: 120px;
+		height: 32px;
+		left: 0px;
+		top: 0px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Login_page;
+		cursor: pointer;
+	}
+	#Sign_up_ba {
+		left: 17px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 88px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(110,132,219,1);
+	}
+	#Sign_up_ba {
+		left: 17px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 88px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(110,132,219,1);
+	}
+	#Links {
+		position: absolute;
+		width: 372px;
+		height: 21px;
+		left: 683px;
+		top: 95px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Login_page__1;
+		cursor: pointer;
+		padding: 0px;
+	}
+	#Queries {
+		left: 298px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Login_page__1;
+		cursor: pointer;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Transactions {
+		left: 129px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 120px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Rewards {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 80px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#google {
+		position: absolute;
+		width: 44px;
+		height: 44px;
+		left: 434px;
+		top: 584px;
+		overflow: visible;
+	}
+	#facebook {
+		position: absolute;
+		width: 44px;
+		height: 44px;
+		left: 502px;
+		top: 584px;
+		overflow: visible;
+	}
+	#Login_through_-_ {
+		left: 164px;
+		top: 594px;
+		position: absolute;
+		overflow: visible;
+		width: 263px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#Forgot_password_ {
+		left: 228px;
+		top: 638px;
+		position: absolute;
+		overflow: visible;
+		width: 255px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(6,189,255,1);
+		text-decoration: underline;
+	}
+	#n_009i518001_crowdfunding_set- {
+		filter: drop-shadow(28px 0px 24px rgba(255, 255, 255, 0.651));
+		position: absolute;
+		width: 416px;
+		height: 416px;
+		left: 711px;
+		top: 245px;
+		overflow: visible;
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: Login page;
+		--web-view-id: Login_page;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Login_page {
+		position: absolute;
+		display: block;
+		width: 1366px;
+		height: 768px;
+		background: linear-gradient(315deg, rgba(233,42,42,1) 0%, rgba(231,58,31,1) 27.89%, rgba(43,27,68,1) 100%);
+		overflow: hidden;
+		--web-view-name: Login page;
+		--web-view-id: Login_page;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Ellipse_5_bl {
+		fill: url(#Ellipse_5_bl);
+	}
+	.Ellipse_5_bl {
+		filter: drop-shadow(-47px 3px 24px rgba(0, 0, 0, 0.341));
+		width: 280px;
+		height: 257px;
+		position: absolute;
+		overflow: visible;
+		transform: matrix(1,0,0,1,1094.8132,-145.5) rotate(-10deg);
+		transform-origin: center;
+	}
+	#Ellipse_6_bm {
+		fill: rgba(198,223,37,1);
+	}
+	.Ellipse_6_bm {
+		filter: drop-shadow(15px -3px 10px rgba(0, 0, 0, 0.439));
+		position: absolute;
+		overflow: visible;
+		width: 224px;
+		height: 224px;
+		left: 34px;
+		top: -43px;
+	}
+	#Ellipse_8_bn {
+		fill: rgba(255,126,14,1);
+	}
+	.Ellipse_8_bn {
+		filter: drop-shadow(0px -14px 7px rgba(0, 0, 0, 0.302));
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 144.5px;
+		left: 488px;
+		top: 708px;
+	}
+	#Ellipse_7_bo {
+		fill: rgba(30,56,236,1);
+	}
+	.Ellipse_7_bo {
+		filter: drop-shadow(11px -18px 50px rgba(0, 0, 0, 0.82));
+		position: absolute;
+		overflow: visible;
+		width: 426px;
+		height: 426px;
+		left: -66px;
+		top: 652px;
+	}
+	#Rectangle_1835 {
+		fill: rgba(249,249,249,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1835 {
+		filter: drop-shadow(25px 18px 6px rgba(0, 0, 0, 0.329));
+		position: absolute;
+		overflow: visible;
+		width: 934px;
+		height: 552px;
+		left: 272px;
+		top: 121px;
+	}
+	#Ellipse_10 {
+		fill: rgba(255,126,14,1);
+	}
+	.Ellipse_10 {
+		filter: drop-shadow(0px -14px 7px rgba(0, 0, 0, 0.302));
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 144.5px;
+		left: 1221px;
+		top: 708px;
+	}
+	#aff {
+		filter: drop-shadow(25px 0px 6px rgba(0, 0, 0, 0.369));
+		position: absolute;
+		width: 567px;
+		height: 526px;
+		left: 272px;
+		top: 121px;
+		overflow: visible;
+	}
+	#LOGIN_YOUR_ACCOUNT_ {
+		left: 869px;
+		top: 278px;
+		position: absolute;
+		overflow: visible;
+		width: 262px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(183,91,245,1);
+	}
+	#Button {
+		position: absolute;
+		width: 120px;
+		height: 55px;
+		left: 882px;
+		top: 471px;
+		overflow: visible;
+		padding: 9px 24px 12px 24px;
+	}
+	#Path_570 {
+		fill: rgba(187,36,242,1);
+	}
+	.Path_570 {
+		overflow: visible;
+		position: absolute;
+		width: 120px;
+		height: 54px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#LOGIN {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 73px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Bebas Neue Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Text_Field {
+		position: absolute;
+		width: 290.327px;
+		height: 37.44px;
+		left: 863.092px;
+		top: 337.642px;
+		overflow: visible;
+	}
+	#Path_572 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_572 {
+		overflow: visible;
+		position: absolute;
+		width: 290.327px;
+		height: 4px;
+		left: 0px;
+		top: 37.44px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Username {
+		opacity: 0.65;
+		left: 9.644px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 121px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 27px;
+		color: rgba(184,17,235,1);
+	}
+	#Text_Field_bz {
+		position: absolute;
+		width: 290.327px;
+		height: 37.44px;
+		left: 864.851px;
+		top: 404.58px;
+		overflow: visible;
+	}
+	#Path_572_b {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_572_b {
+		overflow: visible;
+		position: absolute;
+		width: 290.327px;
+		height: 4px;
+		left: 0px;
+		top: 37.44px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Password {
+		opacity: 0.65;
+		left: 9.644px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 112px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 27px;
+		color: rgba(184,17,235,1);
+	}
+	#google_b {
+		position: absolute;
+		width: 38px;
+		height: 38px;
+		left: 1061px;
+		top: 541px;
+		overflow: visible;
+	}
+	#facebook_b {
+		position: absolute;
+		width: 38px;
+		height: 38px;
+		left: 1117px;
+		top: 541px;
+		overflow: visible;
+	}
+	#Login_through_-__b {
+		left: 869px;
+		top: 554px;
+		position: absolute;
+		overflow: visible;
+		width: 176px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		color: rgba(148,0,247,1);
+	}
+	#Forgot_password__b {
+		left: 898px;
+		top: 598px;
+		position: absolute;
+		overflow: visible;
+		width: 201px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		color: rgba(6,189,255,1);
+		text-decoration: underline;
+	}
+	#Button_b {
+		position: absolute;
+		width: 101px;
+		height: 55px;
+		left: 1026px;
+		top: 471px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Landing_Page;
+		cursor: pointer;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_1831 {
+		fill: rgba(213,100,247,1);
+	}
+	.Rectangle_1831 {
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		height: 54px;
+		left: 0px;
+		top: 0px;
+	}
+	#Back {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Bebas Neue Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Button_ca {
+		position: absolute;
+		width: 101px;
+		height: 55px;
+		left: 83px;
+		top: 27px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Landing_Page;
+		cursor: pointer;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_1831_ca {
+		fill: rgba(213,100,247,1);
+	}
+	.Rectangle_1831_ca {
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		height: 54px;
+		left: 0px;
+		top: 0px;
+	}
+	#Back_cb {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Bebas Neue Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: Login page – 1;
+		--web-view-id: Login_page__1;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Login_page__1 {
+		position: absolute;
+		display: block;
+		width: 1366px;
+		height: 768px;
+		background: linear-gradient(315deg, rgba(233,42,42,1) 0%, rgba(231,58,31,1) 27.89%, rgba(43,27,68,1) 100%);
+		overflow: hidden;
+		--web-view-name: Login page – 1;
+		--web-view-id: Login_page__1;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Ellipse_5_cg {
+		fill: url(#Ellipse_5_cg);
+	}
+	.Ellipse_5_cg {
+		filter: drop-shadow(-47px 3px 24px rgba(0, 0, 0, 0.341));
+		width: 280px;
+		height: 257px;
+		position: absolute;
+		overflow: visible;
+		transform: matrix(1,0,0,1,1094.8132,-145.5) rotate(-10deg);
+		transform-origin: center;
+	}
+	#Ellipse_6_ch {
+		fill: rgba(198,223,37,1);
+	}
+	.Ellipse_6_ch {
+		filter: drop-shadow(15px -3px 10px rgba(0, 0, 0, 0.439));
+		position: absolute;
+		overflow: visible;
+		width: 224px;
+		height: 224px;
+		left: 34px;
+		top: -43px;
+	}
+	#Ellipse_8_ci {
+		fill: rgba(255,126,14,1);
+	}
+	.Ellipse_8_ci {
+		filter: drop-shadow(0px -14px 7px rgba(0, 0, 0, 0.302));
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 144.5px;
+		left: 488px;
+		top: 708px;
+	}
+	#Ellipse_7_cj {
+		fill: rgba(30,56,236,1);
+	}
+	.Ellipse_7_cj {
+		filter: drop-shadow(11px -18px 50px rgba(0, 0, 0, 0.82));
+		position: absolute;
+		overflow: visible;
+		width: 426px;
+		height: 426px;
+		left: -66px;
+		top: 652px;
+	}
+	#Rectangle_1835_ck {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_1835_ck {
+		filter: drop-shadow(25px 18px 6px rgba(0, 0, 0, 0.329));
+		position: absolute;
+		overflow: visible;
+		width: 377px;
+		height: 637px;
+		left: 802px;
+		top: 118px;
+	}
+	#Ellipse_10_cl {
+		fill: rgba(255,126,14,1);
+	}
+	.Ellipse_10_cl {
+		filter: drop-shadow(0px -14px 7px rgba(0, 0, 0, 0.302));
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 144.5px;
+		left: 1221px;
+		top: 708px;
+	}
+	#Queries_cm {
+		left: 892.311px;
+		top: 134.359px;
+		position: absolute;
+		overflow: visible;
+		width: 187px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Josefin Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(183,91,245,1);
+	}
+	#Button_cn {
+		position: absolute;
+		width: 122px;
+		height: 54px;
+		left: 933.338px;
+		top: 637.491px;
+		overflow: visible;
+		padding: 9px 24px 12px 24px;
+	}
+	#Path_570_co {
+		fill: rgba(187,36,242,1);
+	}
+	.Path_570_co {
+		overflow: visible;
+		position: absolute;
+		width: 122px;
+		height: 54px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ask_Us {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Bebas Neue Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Text_Field_cq {
+		position: absolute;
+		width: 129.057px;
+		height: 36px;
+		left: 856.254px;
+		top: 198.368px;
+		overflow: visible;
+	}
+	#Path_572_cr {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_572_cr {
+		overflow: visible;
+		position: absolute;
+		width: 129.056px;
+		height: 4px;
+		left: 0px;
+		top: 36px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Name {
+		opacity: 0.65;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 27px;
+		color: rgba(184,17,235,1);
+	}
+	#Text_Field_ct {
+		position: absolute;
+		width: 276.167px;
+		height: 36px;
+		left: 856.254px;
+		top: 262.037px;
+		overflow: visible;
+	}
+	#Path_572_cu {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_572_cu {
+		overflow: visible;
+		position: absolute;
+		width: 276.167px;
+		height: 4px;
+		left: 0px;
+		top: 36px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Email {
+		opacity: 0.65;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 27px;
+		color: rgba(184,17,235,1);
+	}
+	#Text_Field_cw {
+		position: absolute;
+		width: 130.634px;
+		height: 36px;
+		left: 1003.177px;
+		top: 197.948px;
+		overflow: visible;
+	}
+	#Path_572_cx {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_572_cx {
+		overflow: visible;
+		position: absolute;
+		width: 130.634px;
+		height: 4px;
+		left: 0px;
+		top: 36px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Surname {
+		opacity: 0.65;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 106px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 27px;
+		color: rgba(184,17,235,1);
+	}
+	#Text_Field_cz {
+		position: absolute;
+		width: 278.135px;
+		height: 36px;
+		left: 853.418px;
+		top: 331.738px;
+		overflow: visible;
+	}
+	#Path_572_c {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_572_c {
+		overflow: visible;
+		position: absolute;
+		width: 278.135px;
+		height: 4px;
+		left: 0px;
+		top: 36px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Phone_Number {
+		opacity: 0.65;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 182px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 27px;
+		color: rgba(184,17,235,1);
+	}
+	#Text_Field_c {
+		position: absolute;
+		width: 274.104px;
+		height: 196.843px;
+		left: 856.255px;
+		top: 406.947px;
+		overflow: visible;
+	}
+	#Enter_Your_Query {
+		opacity: 0.65;
+		left: 19.664px;
+		top: 76.918px;
+		position: absolute;
+		overflow: visible;
+		width: 240px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(184,17,235,1);
+	}
+	#Path_576 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_576 {
+		overflow: visible;
+		position: absolute;
+		width: 274.104px;
+		height: 4px;
+		left: 0px;
+		top: 194.849px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_573 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_573 {
+		overflow: visible;
+		position: absolute;
+		width: 274.104px;
+		height: 4px;
+		left: 0px;
+		top: 1.993px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_574 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_574 {
+		overflow: visible;
+		position: absolute;
+		width: 196.843px;
+		height: 0.247px;
+		transform: translate(0px, 0px) matrix(1,0,0,1,-98.2979,98.2979) rotate(90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_575 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(202,41,203,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_575 {
+		overflow: visible;
+		position: absolute;
+		width: 196.836px;
+		height: 1px;
+		transform: translate(0px, 0px) matrix(1,0,0,1,175.6862,98.4181) rotate(90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Feb-Business_9 {
+		filter: drop-shadow(-10px 18px 6px rgba(0, 0, 0, 0.329));
+		position: absolute;
+		width: 610px;
+		height: 610px;
+		left: 228px;
+		top: 118px;
+		overflow: visible;
+	}
+	#Ellipse_25 {
+		fill: rgba(30,56,236,1);
+	}
+	.Ellipse_25 {
+		filter: drop-shadow(11px -18px 50px rgba(0, 0, 0, 0.82));
+		position: absolute;
+		overflow: visible;
+		width: 426px;
+		height: 426px;
+		left: -66px;
+		top: 652px;
+	}
+	#Button_da {
+		position: absolute;
+		width: 101px;
+		height: 55px;
+		left: 92px;
+		top: 27px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Landing_Page;
+		cursor: pointer;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_1831_db {
+		fill: rgba(213,100,247,1);
+	}
+	.Rectangle_1831_db {
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		height: 54px;
+		left: 0px;
+		top: 0px;
+	}
+	#Back_dc {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Bebas Neue Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+}
